@@ -8,7 +8,7 @@
 #background{
 height: 175px;
 background-image: url("./Asset/ec7c931828a26503ab665651ef3f8f7a.jpg");
-background-repeat: no-repeat no-repeat;
+background-repeat: repeat no-repeat;
 }
 
  
@@ -70,3 +70,18 @@ background-repeat: no-repeat no-repeat;
     }
     
 }
+
+.backgroundMove{
+    animation: backgroundMove 10s linear infinite;
+}
+
+@keyframes backgroundMove {
+    0%{
+background-position-x: 0px;    }
+    100%{
+      
+       background-position-x: -1100px;
+    }
+    
+}
+
